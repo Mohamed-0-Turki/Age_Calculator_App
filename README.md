@@ -3,7 +3,7 @@
 
 The user interface of the Age calculator app is designed using HTML and CSS, which provides an intuitive and user-friendly layout for the users. The JavaScript code is used to manipulate the DOM, which allows the app to dynamically update and display the results of the age calculation without the need to refresh the page.</h2>
 
-<h3>Live Demo: </h3>
+<h3>Live Demo: https://mohamed-0-turki.github.io/Age_Calculator_App/</h3>
 
 <h4>Design</h4>
 <img src="./design/1.png"/>
