@@ -1,0 +1,49 @@
+@media screen and (max-width: 1010px){
+  main section {
+    margin: 3%;
+    justify-content: space-around;
+  }
+  main section .button-contener span {
+    min-width: 100%;
+  }
+  main section .button-contener img {
+    position: relative;
+    right: 50%;
+  }
+  main section .inputs .input-field input {
+    width: 123px;
+  }
+  main section .inputs .input-field p {
+    font-size: 11.5px;
+  }
+  main section .details p {
+    font-size: 60px;
+  }
+  main section .details p span {
+    font-size: 65px;
+  }
+}
+
+@media screen and (max-width: 490px){
+  main section {
+    margin: 2%;
+    justify-content: space-around;
+  }
+  main section .inputs .input-field input {
+    width: 110px;
+    font-size: 29px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  main section .inputs .input-field input {
+    width: 90px;
+    font-size: 20px;
+  }
+  main section .details p {
+    font-size: 50px;
+  }
+  main section .details p span {
+    font-size: 55px;
+  }
+}

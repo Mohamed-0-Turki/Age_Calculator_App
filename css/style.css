@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+  /* Primary */
+  --purple: hsl(259, 100%, 65%);
+  --light-red: hsl(0, 100%, 67%);
+
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --off-white: hsl(0, 0%, 94%);
+  --light-grey: hsl(0, 0%, 86%);
+  --smokey-grey: hsl(0, 1%, 44%);
+  --off-black: hsl(0, 0%, 8%);
+
+  /* Font Size */
+  --font-size-inputs: 32px;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--light-grey);
+}
+
+main section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 900px;
+  height: 640px;
+  padding: 3%;
+  background-color: var(--white);
+  border-radius:25px 25px 200px 25px;
+  -webkit-border-radius:25px 25px 200px 25px;
+  -moz-border-radius:25px 25px 200px 25px;
+  -ms-border-radius:25px 25px 200px 25px;
+  -o-border-radius:25px 25px 200px 25px;
+}
+
+main section .inputs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+main section .inputs .input-field {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2%;
+}
+
+main section .inputs .input-field label {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+  color: var(--smokey-grey);
+}
+
+main section .inputs .input-field input {
+  max-width: 160px;
+  height: 65px;
+  font-size: var(--font-size-inputs);
+  font-weight: 400;
+  padding-left: 20px;
+  color: var(--off-black);
+  border: 0.2px solid var(--light-grey);
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  outline: none;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+main section .inputs .input-field input::placeholder {
+  text-transform: uppercase;
+  color: var(--smokey-grey);
+}
+main section .inputs .input-field input:focus {
+  border-color: var(--purple);
+}
+main section .inputs .input-field input::-webkit-outer-spin-button,
+main section .inputs .input-field input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+main section .inputs .input-field div {
+  height: 5px;
+}
+main section .inputs .input-field p {
+  display: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: capitalize;
+  color: var(--light-red);
+}
+
+main section .button-contener {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main section .button-contener span {
+  width: calc(100% - 2%);
+  height: 0.7px;
+  background-color: var(--light-grey);
+}
+
+main section .button-contener img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  background-color: var(--purple);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+  transition: all 0.2s ease;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+
+main section .button-contener img:hover {
+  cursor: pointer;
+  background-color: var(--off-black);
+}
+
+main section .details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+main section .details p {
+  font-size: 80px;
+  font-weight: 800;
+  font-style: italic;
+}
+main section .details p span {
+  font-size: 85px;
+  font-weight: 800;
+  color: var(--purple);
+}
